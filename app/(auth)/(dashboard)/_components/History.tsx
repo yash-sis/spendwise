@@ -15,7 +15,6 @@ import {
   CartesianGrid,
   ResponsiveContainer,
   Tooltip,
-  TooltipProps,
   XAxis,
   YAxis,
 } from "recharts";
@@ -165,16 +164,12 @@ function History({ userSettings }: { userSettings: UserSettings }) {
 
 export default History;
 
-function CustomTooltip({
-  active,
-  payload,
-  formatter,
-}: TooltipProps<number, string> & { formatter: Intl.NumberFormat }) {
+function CustomTooltip({ active, payload, formatter }: any) {
   if (!active || !payload || payload.length === 0) {
     return null;
   }
 
-  const data = payload[0].payload as { expense: number; income: number };
+  const data = payload[0].payload;
   const { expense, income } = data;
 
   return (

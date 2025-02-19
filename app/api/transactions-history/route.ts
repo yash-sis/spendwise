@@ -1,4 +1,4 @@
-import { UserSettings } from "@prisma/client";
+//import { UserSettings } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { OverviewQuerySchema } from "@/schema/overview";
 import { currentUser } from "@clerk/nextjs/server";

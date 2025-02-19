@@ -71,7 +71,6 @@ function HistoryPeriodSelector({
       </div>
     </div>
   );
-  0;
 }
 
 export default HistoryPeriodSelector;

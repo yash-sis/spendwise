@@ -1,4 +1,3 @@
-import { Moon } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 import { Period, Timeframe } from "@/lib/types";
 import { currentUser } from "@clerk/nextjs/server";

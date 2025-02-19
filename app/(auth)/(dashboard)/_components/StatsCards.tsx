@@ -16,12 +16,12 @@ interface Props {
   userSettings: UserSettings;
 }
 
-interface StatCardProps {
-  formatter: Intl.NumberFormat;
-  value: number;
-  title: string;
-  icon: ReactNode;
-}
+// interface StatCardProps {
+//   formatter: Intl.NumberFormat;
+//   value: number;
+//   title: string;
+//   icon: ReactNode;
+// }
 
 function StatCard({
   formatter,
