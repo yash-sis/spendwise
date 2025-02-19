@@ -225,6 +225,7 @@ export const DateRangePicker: FC<DateRangePickerProps> & {
     }
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const checkPreset = (): void => {
     for (const preset of PRESETS) {
       const presetRange = getPresetRange(preset.name);

@@ -10,6 +10,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { TransactionType } from "@/lib/types";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import React from "react";

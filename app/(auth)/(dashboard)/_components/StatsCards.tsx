@@ -31,7 +31,7 @@ function StatCard({
 }: {
   formatter: Intl.NumberFormat;
   icon: ReactNode;
-  title: String;
+  title: string;
   value: number;
 }) {
   const formatFn = useCallback(
