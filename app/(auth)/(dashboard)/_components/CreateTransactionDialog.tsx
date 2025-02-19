@@ -42,7 +42,6 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { CreateTransaction } from "../_actions/transactions";
 import { toast } from "sonner";
 import { DateToUTCDate } from "@/lib/helpers";
-import { log } from "console";
 
 interface Props {
   trigger: ReactNode;
